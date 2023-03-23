@@ -3,7 +3,11 @@
   "short_name": "PWA",
   "description": "Progressive Web App Programowanie systemów mobilnych",
   "icons": [
-   
+    {
+      "src": "/image/image.png",
+      "type": "image/png", 
+      "sizes": "800x533"
+    }
   ],
   "start_url": "index.html",
   "display": "fullscreen",
