@@ -1,0 +1,20 @@
+
+  {
+    "name": "PWA",
+    "short_name": "PWAPSM",
+    "description": "Github PWA Page",
+   
+    "scope": "index.html",
+    "start_url": "index.html",
+   
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+   
+
+    "display": "standalone", 
+   
+
+    "icons": [
+      
+    ]
+  }

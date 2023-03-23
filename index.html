@@ -14,11 +14,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
+    <link rel="canonical" href="https://krzysztofszczybylo.github.io/pwa/" />
     <link rel="manifest" href="manifest.json" />
 </head>
 
 <body>
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register (
+        '/pwa/sw.js',
+        {scope: '/pwa/'}
+      )
+    }
+    </script>
     <h1>Progressive Web Application</h1>
     <h2>Jakub Prażmowski (218258)</h2>
     <h2>Rafał Powroźnik (217890)</h2>
