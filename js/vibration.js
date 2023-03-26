@@ -1,3 +1,3 @@
 function vibrate (){
-    navigator.vibrate([500,100,250,100,500])
+    navigator.vibrate([100,100,100,200,200,200,100,100,100])
 }
